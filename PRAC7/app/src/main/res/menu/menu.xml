@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/red"
+        android:icon="@drawable/icon1"
+        android:iconTint="@color/colorAccent"
+        android:title="RED"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/blue"
+        android:iconTintMode="add"
+        android:iconTint="@color/colorAccent"
+        android:icon="@drawable/icon2"
+        app:showAsAction="never"
+        android:title="Blue" />
+    <item android:id="@+id/green"
+        android:iconTintMode="add"
+        android:iconTint="@color/colorAccent"
+        android:icon="@drawable/icon2"
+        app:showAsAction="never"
+        android:title="Green" />
+    <item android:id="@+id/yellow"
+        android:iconTintMode="add"
+        android:iconTint="@color/colorAccent"
+        android:icon="@drawable/icon2"
+        app:showAsAction="never"
+        android:title="Yellow">
+
+        <menu>
+
+            <item android:id="@+id/lightgreen"
+                android:iconTintMode="add"
+                android:iconTint="@color/colorAccent"
+                android:icon="@drawable/icon2"
+                app:showAsAction="never"
+                android:title="Green" />
+
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/orange"
+        android:iconTintMode="add"
+        android:iconTint="@color/colorAccent"
+        android:icon="@drawable/icon2"
+        app:showAsAction="never"
+        android:title="Orange" />
+</menu>
